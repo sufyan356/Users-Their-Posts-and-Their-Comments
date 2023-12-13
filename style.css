@@ -1,0 +1,58 @@
+
+.tableContainer{
+    display: none;
+}
+.displaytable{
+    display: block;
+    /* border: 1px solid green!important; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hideLoader{
+    display: none!important;
+}
+.loader{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableContainer{
+    max-width: 100%;
+    overflow-x: auto!important;
+}
+
+@media(max-width:600px){
+    .tableCustom{
+        font-size: 0.6rem;
+        font-weight: 700;
+
+    } 
+}
+
+.showPostData{
+    display: block!important;
+}
+.showCommentsData{
+    display: block!important;
+}
+#postData{
+    display: none;
+}
+.hideUsersdata{
+    display: none!important;
+}
+#commentsData{
+    display: none;
+}
+button{
+    background-color: rgb(14, 14, 85)!important;
+    color: white;
+}
+
